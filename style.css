@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #f2d2bd;
-  color: #ededed;
+  background-color: whitesmoke;
+  color: #00abf0;
 }
 
 .header {
@@ -15,8 +15,9 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  height: 5%;
   padding: 20px 0%;
-  background-color: transparent;
+  background-color: black;
   display: flex;
   align-items: center;
   z-index: 100;
@@ -31,7 +32,7 @@ body {
 
 .navbar a {
   font-size: 18px;
-  color: #ededed;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
@@ -56,11 +57,12 @@ body {
   width: 90%;
   background-size: right;
   background-position: right;
-  border-radius: 200%;
+  border-radius: 100%;
   margin: auto;
   display: flex;
   align-items: center;
   padding: 0 2%;
+  background-color: lightgray;
 }
 
 .home:hover {
@@ -84,18 +86,19 @@ body {
 }
 
 .home-content:hover h3 {
-  color: white;
+  color: #00abf0;
 }
 
 .home-content h1 {
   font-size: 40px;
   font-weight: 700;
+  color: black;
 }
 
 .home-content h3 {
   font-size: 32px;
   font-weight: 700;
-  color: #00abf0;
+  color: black;
 }
 
 .home-sci {

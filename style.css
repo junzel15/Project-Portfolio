@@ -81,6 +81,13 @@ body {
   color: black;
 }
 
+.home-conten:hover h1 {
+  color: #00abf0;
+}
+
+.home-conten:hover h3 {
+  color: #00abf0;
+}
 .home-sci {
   position: absolute;
   bottom: 40px;
@@ -162,6 +169,10 @@ body {
 .about .me-content img {
   width: 100%;
   transform: scaleX(-1);
+}
+
+.ab:hover {
+  color: #00abf0;
 }
 
 .home-content {
@@ -483,9 +494,9 @@ img.hover-anim:hover {
 }
 
 footer {
-  background-color: #757575;
+  background-color: black;
   padding: 15px 50px;
   text-align: center;
-  color: #fff;
+  color: white;
   font-size: 14px;
 }

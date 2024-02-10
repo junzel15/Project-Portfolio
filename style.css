@@ -7,7 +7,7 @@
 
 body {
   background-color: whitesmoke;
-  color: #00abf0;
+  color: #000;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
   /* display: flex; */
   /* justify-content: space-between; */
   /* align-items: center; */
-  /* z-index: 100; */
+  z-index: 100;
 }
 
 .logo {
@@ -173,9 +173,9 @@ body {
 }
 
 .about-content:hover {
-  /* transform: scale(1.3);
-  z-index: 2;
-   transition: 0.5s;
+  /* transform: scale(1.3); */
+  /* z-index: 2; */
+  /* transition: 0.5s; */
 }
 
 .about-content:hover {
@@ -202,7 +202,7 @@ body {
 }
 
 .me-content {
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.4);
   /* width: 100%; */
   /* float: right; */
   /* margin-left: 650px; */
@@ -244,6 +244,7 @@ body {
   /* justify-content: center; */
   font-size: 57px;
   text-align: center;
+  color: #00abf0;
 }
 
 .row {
@@ -325,18 +326,19 @@ body {
 
 .fcf-body {
   margin: 0;
-  font-family: -apple-system, Arial, sans-serif;
+  /* font-family: -apple-system, Arial, sans-serif; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000;
   text-align: left;
   background-color: #fff;
-  padding: 150px;
-  padding-bottom: 10px;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  max-width: 200%;
+  padding: 30px;
+  /* padding-bottom: 10px; */
+  /* border: 1px solid #ced4da; */
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
 }
 
 .fcf-form-group {
@@ -446,14 +448,14 @@ label.fcf-label {
 
 .fcf-btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #00abf0;
+  border-color: #00abf0;
 }
 
 .fcf-btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #009ad8;
+  border-color: #009ad8;
 }
 
 .fcf-btn-primary:focus,
@@ -469,12 +471,13 @@ label.fcf-label {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 
 .fcf-btn-block {
   display: block;
   width: 100%;
+  margin-top: 30px;
 }
 
 .fcf-btn-block + .fcf-btn-block {
@@ -488,10 +491,7 @@ input[type="button"].fcf-btn-block {
 }
 
 .phone {
-  width: 50%;
-  background-size: right;
-  background-position: right;
-  align-items: right;
-  padding: 5%;
-  margin: auto;
+  /* width: 50%; */
+  /* padding: 100px 50px; */
+  /* margin: auto; */
 }

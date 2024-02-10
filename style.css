@@ -481,3 +481,11 @@ img.hover-anim {
 img.hover-anim:hover {
   transform: scale(1.1);
 }
+
+footer {
+  background-color: #757575;
+  padding: 15px 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}

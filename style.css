@@ -47,7 +47,7 @@ body {
 
 .home {
   height: 100vh;
-  background: url("./IMG_20240201_090506_336.jpg") no-repeat;
+  background: url("images/IMG_20240201_090506_336.jpg") no-repeat;
   width: 100%;
   background-size: 50%;
   background-position: left center;

@@ -524,3 +524,17 @@ input[type="button"].fcf-btn-block {
 .contact-section .skills {
   text-align: left;
 }
+
+.contact-section .details div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer {
+  background-color: #757575;
+  padding: 15px 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}

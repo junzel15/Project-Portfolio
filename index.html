@@ -207,6 +207,45 @@
       </div>
     </section>
 
+    <script>
+      console.log("app has started.");
+
+      var menuBtn = document.querySelector(".menu-btn");
+      var navBar = document.querySelector(".navbar");
+
+      menuBtn.addEventListener("click", function () {
+        navBar.classList.toggle("menu-active");
+      });
+
+      var navLinks = document.querySelectorAll(".nav-links a");
+
+      navLinks.forEach(function (navLink) {
+        navLink.addEventListener("click", function () {
+          document.querySelector(".navbar").classList.toggle("menu-active");
+        });
+      });
+
+      var sec = document.querySelectorAll("section");
+
+      window.onscroll = function () {
+        sec.forEach(function (section) {
+          var top = window.scrollY;
+          var offset = section.offsetTop - 60;
+          var height = section.offsetHeight;
+          var id = section.getAttribute("id");
+
+          if (top >= offset && top < offset + height) {
+            navLinks.forEach(function (link) {
+              link.classList.remove("active");
+              document
+                .querySelector("nav a[href*=" + id + "]")
+                .classList.add("active");
+            });
+          }
+        });
+      };
+    </script>
+
     <footer>&copy;ELVIS 2024</footer>
   </body>
 </html>

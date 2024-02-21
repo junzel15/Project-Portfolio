@@ -106,7 +106,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 50px;
-  background-color: #ffffff;
+  background-color: #1c4966;
   justify-content: flex-end;
 }
 
@@ -233,7 +233,7 @@ h3 {
   padding: 100px 50px;
   justify-content: space-between;
   gap: 150px;
-  background-color: #fff;
+  background-color: #235347;
 }
 
 .about .skills {
@@ -259,7 +259,6 @@ h3 {
   font-size: 25px;
   font-weight: 500;
   color: black;
-  margin-bottom: 12px;
 }
 
 .about .home-content p {
@@ -300,7 +299,6 @@ h3 {
 
   .about .me-content {
     width: 100%;
-    margin-bottom: 25px;
   }
 
   .me-content:hover {
@@ -309,7 +307,7 @@ h3 {
 }
 
 .skills-section {
-  background-color: #fafafa;
+  background-color: #a6aa96;
   text-align: center;
   padding: 100px 50px;
 }
@@ -355,7 +353,7 @@ h3 {
 
 .services {
   padding: 100px 50px;
-  background-color: #fff;
+  background-color: #e5b075;
 }
 .services .row {
   justify-content: center;
@@ -400,7 +398,7 @@ h3 {
 
 .project {
   padding: 100px 50px;
-  background-color: #fff;
+  background-color: #65081f;
 }
 .project .row {
   justify-content: center;
@@ -439,7 +437,6 @@ h3 {
 }
 
 .contact-section {
-  background-color: #fafafa;
   padding: 100px 50px;
   display: flex;
   align-items: center;
@@ -618,7 +615,7 @@ input[type="button"].fcf-btn-block {
 }
 
 .contact-section {
-  background-color: #fafafa;
+  background-color: grey;
   padding: 100px 50px;
   display: flex;
   align-items: center;
@@ -685,10 +682,10 @@ input[type="button"].fcf-btn-block {
 }
 
 footer {
-  background-color: #757575;
+  background-color: black;
   padding: 15px 50px;
   text-align: center;
-  color: #fff;
+  color: white;
   font-size: 14px;
 }
 
@@ -708,4 +705,16 @@ img.hover-anim:hover {
   img.hover-anim:hover {
     transform: unset;
   }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }

@@ -351,7 +351,7 @@ h3 {
 
 .services {
   padding: 100px 50px;
-  background-color: #e5b075;
+  background-color: #800000;
 }
 .services .row {
   justify-content: center;
@@ -379,7 +379,7 @@ h3 {
 @media only screen and (max-width: 600px) {
   .services {
     padding: 40px 25px;
-    background-color: #fafafa;
+    background-color: #800000;
   }
   .services .row {
     flex-direction: column;
@@ -741,7 +741,7 @@ input[type="button"].fcf-btn-block {
     flex-direction: column;
     padding: 40px 25px;
     gap: 20px;
-    background-color: #fff;
+    background-color: grey;
   }
   .contact-section .mobile-title {
     display: block;
@@ -758,7 +758,7 @@ input[type="button"].fcf-btn-block {
 
 footer {
   background-color: black;
-  padding: 15px 50px;
+  padding: 10px 30px;
   text-align: center;
   color: white;
   font-size: 14px;
@@ -792,4 +792,9 @@ img.hover-anim:hover {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+:root {
+  background-color: black;
+  padding: 1em;
 }

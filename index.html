@@ -6,7 +6,7 @@
     <title>Elvis Portfolio</title>
 
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
+  
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -18,6 +18,7 @@
     />
   </head>
   <body>
+    <script src="index.js"></script>
     <header class="header">
       <nav class="navbar">
         <div class="mobile-row">
@@ -33,7 +34,7 @@
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#services">Services</a>
-          <a href="#project">Projects</a>
+          <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -65,7 +66,7 @@
     <section id="about" class="about">
       <div class="about-content">
         <h3>about.</h3>
-        <div class="home-content reveal">
+        <div class="home-content">
           <h4>Hello! I'm Elvis Bogsangit Jr.</h4>
           <p>
             I'm a 27-year-old resident of Pagadian City, located in the province
@@ -81,7 +82,7 @@
           </p>
         </div>
       </div>
-      <div class="me-content reveal">
+      <div class="me-content">
         <img src="images/about-image.JPG" alt="Avatar" width="500" />
       </div>
     </section>
@@ -90,19 +91,19 @@
       <h3>skills.</h3>
       <div class="skills-list">
         <div class="row">
-          <div class="skill reveal">
+          <div class="skill">
             <img class="hover-anim" src="images/html-image.png" />
             <span>HTML</span>
           </div>
-          <div class="skill reveal">
+          <div class="skill">
             <img class="hover-anim" src="images/css-image.png" />
             <span>CSS</span>
           </div>
-          <div class="skill reveal">
+          <div class="skill">
             <img class="hover-anim" src="images/java-images.png" />
             <span>Javascript</span>
           </div>
-          <div class="skill reveal">
+          <div class="skill">
             <img class="hover-anim" src="images/bp-image.png" />
             <span>Bootstrap</span>
           </div>
@@ -113,7 +114,7 @@
     <section id="services" class="services">
       <h3>services.</h3>
       <div class="row">
-        <div class="column reveal">
+        <div class="column">
           <img
             class="hover-anim"
             src="images/frontend-image.png"
@@ -123,39 +124,65 @@
         </div>
       </div>
     </section>
+  
+    <section id="portfolio" class="work">
+      <h1  style="color: #00abf0; font-size: 67px; font-weight: 700; text-align: center; ">portfolio.</h1>
+      <div class="workcontainer">
+        <h2 style="text-align: center">Landing Page</h2>
+          <div class="imagecontainer">   
+          
+           <div class="imagewrapper1 first">
+             <div class="imagecontent">
+                 <a href="https://junzel15.github.io/Vape-Shop/" style="margin-top: 20px;" target="_blank">Click the Link</a>
+                 <span style="font-size: 15px;">Made with <strong>HTML,CSS,BOOTSTRAP</strong></span>
+              
+             </div>
+             
+           </div>
+          
+           <div class="imagewrapper1 second">
+             <div class="imagecontent">
+               <a href="" style="margin-top: 20px;" target="_blank"></a>
+               <span><strong></strong></span>
+               <span><strong></strong></span>
+             </div>
+           </div>
+          
+           <div class="imagewrapper1 third">
+             <div class="imagecontent">     
+               <a href="" style="margin-top: 20px;" target="_blank"></a>
+               <span><strong></strong></span>  
+               <span><strong></strong></span>             
+             </div>  
+          </div>
+    </div>
+        </div>
+     </div>  
 
-    <section id="project" class="project">
-      <h3 class="head">projects.</h3>
-      <div class="project">
-        <div class="content reveal">
-          <a href="https://junzel15.github.io/Vape-Shop/" target="_blank">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/project1-image.JPG" alt="" />
-            <div class="content-details fadeIn-top">
-              <h3>HTML CSS BOOTSTRAP</h3>
-              <p>CLICK ME</p>
-            </div>
-          </a>
-        </div>
-        <div class="content reveal">
-          <a
-            href="https://junzel15.github.io/Bogsangit-js-2048-fcb/"
-            target="_blank"
-          >
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/project2-image.JPG" alt="" />
-            <div class="content-details fadeIn-top">
-              <h3>HTML CSS JAVASCRIPT</h3>
-              <p>CLICK ME</p>
-            </div>
-          </a>
-        </div>
+     <div class="workcontainer">
+      <h1 class="portfolio">My Portfolio</h1>
+      <h2 style="text-align: center">Web Application</h2>
+        <div  class="imagecontainer">   
+        
+         <div  class="imagewrapper first">
+           <div class="imagecontent" >
+               <a  href="https://junzel15.github.io/Bogsangit-js-2048-fcb/" target="_blank">Click the Link</a>
+               <span>Made with <strong>HTML,CSS,JavaScript</strong></span>
+           </div>
+           
+         </div>
+        
+        
+        
+        
+  </div>
       </div>
-    </section>
+   </div>   
+ </section>
 
     <section id="contact" class="contact-section">
       <h3 class="mobile-title">contact.</h3>
-      <div class="details reveal">
+      <div class="details">
         <a href="https://maps.app.goo.gl/WfieaXq4omTiRzKK9" target="_blank">
           <i
             class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
@@ -176,7 +203,7 @@
         </a>
       </div>
 
-      <div class="contact-form reveal">
+      <div class="contact-form">
         <h3 class="desktop-title">contact.</h3>
         <div class="fcf-body">
           <div id="fcf-form">
